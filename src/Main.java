@@ -66,6 +66,78 @@ public class Main {
 
         // zadanie 6
 
+        byte banana =5;
+        byte milk = 2;
+        byte iceCream = 2;
+        byte egg = 4;
+
+        byte vesOdinBanana = 80;
+        byte vesOdinMilk = 105;
+        byte vesOdinIcekrem = 100;
+        byte vesOdinEgg = 70;
+
+        int bananaDobavil = banana * vesOdinBanana;
+        int milkDobavil = milk * vesOdinMilk;
+        int icekramDobavil = iceCream * vesOdinIcekrem;
+        int eggDobavil = egg * vesOdinEgg;
+
+        float vesObsh = bananaDobavil + milkDobavil + icekramDobavil + eggDobavil;
+        float vesVKg = vesObsh / 1000;
+
+        System.out.println("Вес спорт завтрака в граммах равен " + vesObsh + ", а в кг " + vesVKg);
+
+        // zadanie 7
+
+        short sbrositVes = 7000;
+        short vDenSmall = 250;
+        short vDemBig = 500;
+        int maloSbrosil = sbrositVes / vDenSmall;
+        int mnogoSbrosil = sbrositVes / vDemBig;
+
+        System.out.println("Если спортсмен будет сбрасывать в день " + vDenSmall + " гр, то он похудеет на 7 кг за " + maloSbrosil + " дней");
+        System.out.println("Если спортсмен будет сбрасывать в день " + vDemBig + " гр, то он похудеет на 7 кг за " + mnogoSbrosil + " дней");
+        System.out.println("В среднем спортсмену понабиться от " + mnogoSbrosil + " до " + maloSbrosil + " дней, чтобы похудеть");
+
+        // zadanie 8
+
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        float povishenie = 0.10F;
+        int god = 12;
+
+        float mashaDopZp = masha * povishenie;
+        float denisDopZP = denis * povishenie;
+        float kristinaDopZp = kristina * povishenie;
+
+        float mashaFinalZp = mashaDopZp + masha;
+        float denisFinalZp = denisDopZP + denis;
+        float kristinaFinalZp = kristinaDopZp + kristina;
+
+        int mashaGodZp = masha * 12;
+        int denisGodZp = denis * 12;
+        int kristinaGodZp = kristina * 12;
+
+        float mashaGodDopZp = mashaFinalZp * god;
+        float desiGodDopZp = denisFinalZp * god;
+        float kristinaGodDopZp = kristinaFinalZp * god;
+
+        float raznitsaMasha = mashaGodDopZp - mashaGodZp;
+        float raznitsaDenis = desiGodDopZp - denisGodZp;
+        float raznitsaKristina = kristinaGodDopZp - kristinaGodZp;
+
+        System.out.println("Маша получит прибавку к зарплате " + mashaDopZp + " руб, разница в год равна " + raznitsaMasha + " рублей");
+        System.out.println("Денис получет прибавку к зарплате " + denisDopZP + " руб, разница в год равна " + raznitsaDenis + " рублей");
+        System.out.println("Крестина получет прибавку к зарплате " + kristinaDopZp + " руб, разница в год равна " + raznitsaMasha + " рублей");
+
+
+
+
+
+
+
+
+
 
 
 
