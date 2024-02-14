@@ -128,7 +128,7 @@ public class Main {
 
         System.out.println("Маша получит прибавку к зарплате " + mashaDopZp + " руб, разница в год равна " + raznitsaMasha + " рублей");
         System.out.println("Денис получет прибавку к зарплате " + denisDopZP + " руб, разница в год равна " + raznitsaDenis + " рублей");
-        System.out.println("Крестина получет прибавку к зарплате " + kristinaDopZp + " руб, разница в год равна " + raznitsaMasha + " рублей");
+        System.out.println("Крестина получет прибавку к зарплате " + kristinaDopZp + " руб, разница в год равна " + raznitsaKristina + " рублей");
 
 
 
